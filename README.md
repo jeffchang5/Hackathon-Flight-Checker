@@ -41,13 +41,13 @@ pip3 install -r requirements.txt
 
 
 
-
+Write the `config.py` file at the root of the project with the structure.
 
 The `spreadsheet_id` is an unique identifier for the Google Sheet. For example, the bolded portion of the following url would be the spreadsheet ID.
-> https://docs.google.com/spreadsheets/d/**1PUOzcKsndwybYyNek_cGk1ttwslFw66Gxu_iojYfWCo**
+> docs.google.com/spreadsheets/d/**1PUOzcKsndwybYyNek_cGk1ttwslFw66Gxu_iojYfWCo**
 
 
-Write the `config.py` file at the root of the project with the structure.
+
 ```python
 config = {
     # Necessary to use Google services
