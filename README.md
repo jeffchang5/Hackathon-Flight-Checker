@@ -4,16 +4,16 @@ Given a column of airports in Google Sheets, this will look at the lowest price 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your machine.
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
-* Python 3.x
+* Python 2.6+ or 3.x
 * Follow this [link](https://console.developers.google.com/start/api?) to create a new project and enable Google QPX Express API and copy the API key into the `config.py` file.
 * An `client_secret.json` file for the Google Sheets API. 
-	* 	 Go to [this wizard](https://console.developers.google.com/start/api?id=sheets.googleapis.com) and create an application.
+	* 	 Go to [this wizard](https://console.developers.google.com/start/api?id=sheets.googleapis.com) and create an application. (you can use the same one as before, doesn't matter)
 	* 	 On the **Add credentials** to your project page, click the **Cancel** button.
 	* 	 At the top of the page, select the **OAuth consent screen** tab. Select an **Email address**, enter a **Product name** if not already set, and click the **Save** button.
 	* 	 Select the **Credentials** tab, click the **Create credentials** button and select **OAuth client ID**.
